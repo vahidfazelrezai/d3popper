@@ -1,0 +1,28 @@
+
+body {
+    font-size: 36px;
+    font-family: 'Indie Flower', cursive;
+    background-color: #111;
+}
+
+.arc path {
+    stroke: #fff;
+    stroke-width: 5px;
+}
+
+svg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+text {
+    fill: #FFFFFF;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
